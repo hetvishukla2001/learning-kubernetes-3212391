@@ -1,12 +1,12 @@
----
+--- # start of documents 
 # An instructor record
-name: Kim Schlesinger
+name: Kim Schlesinger # key value pair with :
 job: Technical Curriculum Developer
 Location: Colorado, USA
-courses:
+courses: # array or list collection start with "-"
   - Learning Kubernetes 
   - Kubernetes Package Management with Helm 
-jobs:
+jobs: # map of listed key value pairs 
   DigitalOcean: 1.25
   Fairwinds: 2.75
   Galvanize: 3 
@@ -14,3 +14,6 @@ jobs:
     - Director of Instruction
     - Web Development Instructor
     - Instructional Designer 
+
+    # somtimes use .yml or .yaml
+    # always use yaml checker before procide 
